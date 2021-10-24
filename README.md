@@ -1,4 +1,4 @@
-![Cryptoverse](./src/static/images/crypto.png)
+![Cryptoverse](./src/static/images/crypto.PNG)
 
 # All About Crypto
 
