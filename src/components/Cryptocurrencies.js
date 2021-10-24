@@ -7,7 +7,6 @@ import Loader from './Loader';
 
 const Cryptocurrencies = ({ simplified }) => {
   const count = simplified ? 10 : 100;
-  console.log("count", count);
   const { data: cryptoList, isFetching } = useGetCryptosQuery(count);
   const [cryptos, setCryptos] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -22,8 +21,6 @@ const Cryptocurrencies = ({ simplified }) => {
   }, [cryptoList, searchTerm]);
 
   if (isFetching) return <Loader />
-  console.log("Crypto", isFetching, cryptos)
-  //console.log("Filtered", filteredData)
 
   return (
     <>
