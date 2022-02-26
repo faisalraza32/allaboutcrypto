@@ -12,6 +12,7 @@ Live app demo [All About Crypto](https://allaboutcrypto.vercel.app/)
 <br><br>
 To runs the app in the development mode.
 
+
 - ### `yarn install`
 - ### `yarn start`
 
